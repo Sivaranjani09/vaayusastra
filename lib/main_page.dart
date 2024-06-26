@@ -108,8 +108,8 @@ class _MainPageState extends State<MainPage> {
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Color.fromARGB(255, 27, 23, 84),
-        unselectedItemColor: Color.fromARGB(255, 250, 248, 248),
-        unselectedLabelStyle: TextStyle(color: Color.fromARGB(255, 253, 249, 249)), // Ensure unselected labels are also visible
+        unselectedItemColor: Color.fromARGB(255, 27, 23, 84),
+        unselectedLabelStyle: TextStyle(color: Color.fromARGB(255, 27, 23, 84)), // Ensure unselected labels are also visible
         selectedLabelStyle: TextStyle(color: Color.fromARGB(255, 27, 23, 84)), // Ensure selected labels are in primary color
         onTap: (index) {
           if (index == 3) {
