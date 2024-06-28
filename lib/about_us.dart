@@ -1,4 +1,5 @@
 // about_us.dart
+// about_us.dart
 import 'package:flutter/material.dart';
 
 class AboutUsPage extends StatelessWidget {
@@ -12,11 +13,14 @@ class AboutUsPage extends StatelessWidget {
           children: [
             Text(
               'About Us',
-              style: Theme.of(context).textTheme.displayLarge,
+              style: Theme.of(context).textTheme.displayLarge?.copyWith(
+                    color: Color.fromARGB(255, 27, 23, 84),
+                  ),
             ),
             SizedBox(height: 20),
             Card(
               elevation: 4,
+              color: Color.fromARGB(255, 195, 194, 209),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),
               ),
@@ -25,14 +29,20 @@ class AboutUsPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Icon(Icons.rocket, color: Color.fromARGB(255, 27, 23, 84), size: 30),
+                    SizedBox(height: 10),
                     Text(
                       'Our Mission',
-                      style: Theme.of(context).textTheme.titleLarge,
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'At Vaayusastra, our mission is to revolutionize the aerospace industry through cutting-edge technology, innovative solutions, and unparalleled service. We strive to exceed our clients\' expectations and set new standards in the industry.',
-                      style: Theme.of(context).textTheme.bodyMedium,
+                      'Vaayusastra Aerospace Private Limited, incubated under IIT Madras\'s RTBI, is dedicated to advancing the aerospace industry through innovative human engineering services, Aero Modelling workshops, science workshops for children, and theatre arts like Storytelling. We are committed to nurturing young talents, providing internships for engineering students, and fostering their ideas.',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                   ],
                 ),
@@ -41,6 +51,7 @@ class AboutUsPage extends StatelessWidget {
             SizedBox(height: 20),
             Card(
               elevation: 4,
+              color: Color.fromARGB(255, 195, 194, 209),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),
               ),
@@ -49,14 +60,20 @@ class AboutUsPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Icon(Icons.star, color: Color.fromARGB(255, 27, 23, 84), size: 30),
+                    SizedBox(height: 10),
                     Text(
                       'Our Values',
-                      style: Theme.of(context).textTheme.titleLarge,
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'Integrity, Excellence, Innovation, and Customer Focus are the core values that drive our company. We believe in doing the right thing, delivering the best, constantly improving, and prioritizing our customers\' needs.',
-                      style: Theme.of(context).textTheme.bodyMedium,
+                      'At Vaayusastra, we uphold Integrity, Excellence, Innovation, and Customer Focus as our core values. These values drive us to do the right thing, deliver the best, continuously innovate, and prioritize our customers\' needs.',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                   ],
                 ),
@@ -65,6 +82,7 @@ class AboutUsPage extends StatelessWidget {
             SizedBox(height: 20),
             Card(
               elevation: 4,
+              color: Color.fromARGB(255, 195, 194, 209),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),
               ),
@@ -73,14 +91,20 @@ class AboutUsPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Icon(Icons.group, color: Color.fromARGB(255, 27, 23, 84), size: 30),
+                    SizedBox(height: 10),
                     Text(
                       'Our Team',
-                      style: Theme.of(context).textTheme.titleLarge,
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'We are proud of our diverse and talented team of professionals. Each member brings unique skills and expertise to the table, working collaboratively to achieve our goals and drive the company forward.',
-                      style: Theme.of(context).textTheme.bodyMedium,
+                      'We take pride in our diverse and talented team of professionals at Vaayusastra Aerospace Private Limited. Each member brings unique skills and expertise, collaborating effectively to achieve our goals and propel the company forward.',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                   ],
                 ),
@@ -89,6 +113,7 @@ class AboutUsPage extends StatelessWidget {
             SizedBox(height: 20),
             Card(
               elevation: 4,
+              color: Color.fromARGB(255, 195, 194, 209),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15),
               ),
@@ -97,14 +122,20 @@ class AboutUsPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Icon(Icons.contact_mail, color: Color.fromARGB(255, 27, 23, 84), size: 30),
+                    SizedBox(height: 10),
                     Text(
                       'Contact Us',
-                      style: Theme.of(context).textTheme.titleLarge,
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                     SizedBox(height: 10),
                     Text(
                       'If you have any questions or need further information, please feel free to contact us. We are here to help and look forward to hearing from you.',
-                      style: Theme.of(context).textTheme.bodyMedium,
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Color.fromARGB(255, 27, 23, 84),
+                          ),
                     ),
                     SizedBox(height: 10),
                     Row(
@@ -113,7 +144,9 @@ class AboutUsPage extends StatelessWidget {
                         SizedBox(width: 10),
                         Text(
                           'contact@vaayusastra.com',
-                          style: Theme.of(context).textTheme.bodyMedium,
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                color: Color.fromARGB(255, 27, 23, 84),
+                              ),
                         ),
                       ],
                     ),
@@ -124,7 +157,9 @@ class AboutUsPage extends StatelessWidget {
                         SizedBox(width: 10),
                         Text(
                           '+1 (800) 123-4567',
-                          style: Theme.of(context).textTheme.bodyMedium,
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                color: Color.fromARGB(255, 27, 23, 84),
+                              ),
                         ),
                       ],
                     ),
@@ -138,6 +173,11 @@ class AboutUsPage extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
 
 // import 'package:flutter/material.dart';
 

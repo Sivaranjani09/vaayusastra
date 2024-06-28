@@ -4,11 +4,11 @@ import 'draggable_chatbot.dart';
 
 class CoursesPage extends StatelessWidget {
   final List<Map<String, dynamic>> catalogItems = [
-    {'title': 'Catalog 1', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.book},
-    {'title': 'Catalog 2', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.computer},
-    {'title': 'Catalog 3', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.science},
-    {'title': 'Catalog 4', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.history_edu},
-    {'title': 'Catalog 5', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.language},
+    {'title': 'Weekend Batches', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.school},
+    {'title': '10 Day camp', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.school},
+    {'title': 'Online - Air science through mythology', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.school},
+    {'title': 'Advanced level college program', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.school},
+    {'title': 'AASSC certification program', 'color': Color.fromARGB(255, 195, 194, 209), 'icon': Icons.school},
   ];
 
   @override
